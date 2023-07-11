@@ -1,0 +1,64 @@
+.community-grid{
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    row-gap: 1.8rem;
+    margin-top: 4rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.profile-card{
+    background-color: var(--secondary-background);
+    width: 400px;
+    height: 180px;
+    border-radius: .4rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    overflow: hidden;
+    padding: 1rem;
+    box-shadow: 0 0 1rem 1px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image-contanier{
+    background-color: green;
+    flex: .6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.profile-image-contanier img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+    transition: .4s;
+}
+
+.profile-image-contanier img:hover{
+    box-shadow:  0 0 1rem 1px rgba(255, 255, 255, 0.341);
+}
+
+.user-details-box{
+    /* background-color: black; */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.user-details-box h2{
+    /* margin-top: 1rem; */
+}
+
+.user-details-box p{
+    margin-top: .4rem;
+}
