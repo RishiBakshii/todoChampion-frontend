@@ -21,3 +21,15 @@
     }
     
 }
+@media (max-width:468px) {
+    .container h1{
+        font-size: 1.7rem;
+        width: 70vw;
+        text-align: center;
+    }
+
+    .brandname{
+        width: 60vw;
+    }
+    
+}
